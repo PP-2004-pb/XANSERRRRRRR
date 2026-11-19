@@ -1,0 +1,12 @@
+{
+  "name": "smart-itam", "version": "1.0.0", "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend",
+    "start": "npm run start -w backend",
+    "test": "npm run test -w backend",
+    "seed": "npm run seed -w backend"
+  },
+  "devDependencies": { "concurrently": "^9.2.1" }
+}

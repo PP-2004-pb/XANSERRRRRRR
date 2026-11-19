@@ -1,0 +1,8 @@
+Development MongoDB (ephemeral memory instance)
+Seeded 500 demo assets across IT, medical, facility and other categories, plus 4 role accounts.
+Smart ITAM API listening on http://127.0.0.1:4000
+Restarting 'src/server.js'
+Development MongoDB (ephemeral memory instance)
+Seeded 500 demo assets across IT, medical, facility and other categories, plus 4 role accounts.
+Smart ITAM API listening on http://127.0.0.1:4000
+Failed running 'src/server.js'
